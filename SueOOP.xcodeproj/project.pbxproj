@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		23F040E219EDA8DB00FAE82A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23F040E119EDA8DB00FAE82A /* main.cpp */; };
+		23F040EA19EDA90400FAE82A /* Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23F040E819EDA90400FAE82A /* Box.cpp */; };
+		23F040ED19EDA91E00FAE82A /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23F040EB19EDA91E00FAE82A /* Rectangle.cpp */; };
+		23F040F019EDAA4A00FAE82A /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23F040EE19EDAA4A00FAE82A /* Vehicle.cpp */; };
+		23F040F319EDAD0800FAE82A /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23F040F119EDAD0800FAE82A /* Car.cpp */; };
+		23F040F619EDAFE700FAE82A /* Truck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23F040F419EDAFE700FAE82A /* Truck.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		23F040DE19EDA8DB00FAE82A /* SueOOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SueOOP; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F040E119EDA8DB00FAE82A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		23F040E819EDA90400FAE82A /* Box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Box.cpp; sourceTree = "<group>"; };
+		23F040E919EDA90400FAE82A /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		23F040EB19EDA91E00FAE82A /* Rectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
+		23F040EC19EDA91E00FAE82A /* Rectangle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Rectangle.hpp; sourceTree = "<group>"; };
+		23F040EE19EDAA4A00FAE82A /* Vehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vehicle.cpp; sourceTree = "<group>"; };
+		23F040EF19EDAA4A00FAE82A /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		23F040F119EDAD0800FAE82A /* Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		23F040F219EDAD0800FAE82A /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		23F040F419EDAFE700FAE82A /* Truck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Truck.cpp; sourceTree = "<group>"; };
+		23F040F519EDAFE700FAE82A /* Truck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Truck.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				23F040E119EDA8DB00FAE82A /* main.cpp */,
+				23F040E819EDA90400FAE82A /* Box.cpp */,
+				23F040E919EDA90400FAE82A /* Box.h */,
+				23F040EB19EDA91E00FAE82A /* Rectangle.cpp */,
+				23F040EC19EDA91E00FAE82A /* Rectangle.hpp */,
+				23F040EE19EDAA4A00FAE82A /* Vehicle.cpp */,
+				23F040EF19EDAA4A00FAE82A /* Vehicle.h */,
+				23F040F119EDAD0800FAE82A /* Car.cpp */,
+				23F040F219EDAD0800FAE82A /* Car.h */,
+				23F040F419EDAFE700FAE82A /* Truck.cpp */,
+				23F040F519EDAFE700FAE82A /* Truck.h */,
 			);
 			path = SueOOP;
 			sourceTree = "<group>";
@@ -119,6 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				23F040E219EDA8DB00FAE82A /* main.cpp in Sources */,
+				23F040EA19EDA90400FAE82A /* Box.cpp in Sources */,
+				23F040F019EDAA4A00FAE82A /* Vehicle.cpp in Sources */,
+				23F040F619EDAFE700FAE82A /* Truck.cpp in Sources */,
+				23F040ED19EDA91E00FAE82A /* Rectangle.cpp in Sources */,
+				23F040F319EDAD0800FAE82A /* Car.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
